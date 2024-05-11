@@ -4,7 +4,7 @@ const Card = (props) => {
         <>
             <audio ref={props.mpRef} src={props.mp}></audio>
             <div className=" w-[350px] mx-auto flex flex-col p-[20px] rounded-[20px] backdrop-blur-[20px] items-center h-[550px] shadow-[0_0_70px_1px_white] ">
-                <div className=" flex justify-center items-center animate-spin-slow w-[140px] h-[140px] rounded-[50%] bg-back bg-cover bg-center ">
+                <div id="circle" className={`flex justify-center items-center ${props.played && "animate-spin-slow"} w-[140px] h-[140px] rounded-[50%] bg-cover bg-center`}>
                     <div className=" w-[20px] h-[20px] bg-black rounded-[50%] "></div>
                 </div>
                 <h1 className=" text-[35px] text-white font-semibold mt-[20px] ">{props.title}</h1>

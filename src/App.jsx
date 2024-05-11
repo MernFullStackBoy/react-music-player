@@ -5,7 +5,7 @@ const App = () => {
 
 
   return (
-    <div className=" flex justify-center items-center w-[100%] bg-back bg-cover h-[100vh] ">
+    <div id="back" className=" flex justify-center items-center w-[100%] bg-cover h-[100vh] ">
       <Music />
     </div>
   )

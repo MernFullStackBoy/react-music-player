@@ -6,10 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "back": "url(./src/image/photo.jpg)"
-        
-      },
       animation: {
         "spin-slow": "spin 5s linear infinite"
       }
